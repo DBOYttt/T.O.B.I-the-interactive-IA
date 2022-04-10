@@ -137,3 +137,6 @@ while 1 :
         if number_of_characters == 28:
           print('im a tobi :) nice to meet u!')
     animate_text('im a tobi :) nice to meet u!')
+    
+  if D2.upper().lower() == 'exit()' :
+    break
