@@ -1,10 +1,8 @@
-<h3 align="center">auto_awesome Czy chodziło Ci o: tobi jest moim pierwszym projektem w pythonie mam wielką nadzieję że ci się spodoba zadanime tobiego jest umilić czas rozmówcy najlepiej jak to mozliwe volume_up 153 / 5 000 Wyniki tłumaczenia tobi is my first python project I really hope you like it your task is to make the interlocutor's time as pleasant as possible</h3>
+<h3 align="center">T.O.B.I</h3>
 
-- T.O.B.I's commands: **who are u? or who are you?**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+- T.O.B.I's commands: **who are u? or who are you?** 
+                      **what your name?**
+                      **exit()**
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
