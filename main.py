@@ -1,9 +1,11 @@
 from asyncio import sleep
 from cgitb import text
+import imp
 from signal import pause
 import time
 import os
 from x_def import x
+
 
 print(
     '''
@@ -213,7 +215,13 @@ while 1 :
     animate_text('im a tobi :) nice to meet u!')
 
   if D2.upper().lower() != x: 
-    break
-
+     print('i dont understand can u explain?')
+     GW = input('what question i dont understund?:')
+     GW2 = input('can u explain this?:')
+     f = open('brain.txt', 'a')
+     f.write(f'{GW} - {GW2}  ')
+     f.close()
+     f = open('brain.txt', 'r')
+     print(f.read())
   if D2.upper().lower() == 'exit()' :
     break

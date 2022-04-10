@@ -1,1 +1,1 @@
-x = 'who are u?' or 'who are u' or 'who are you?' or 'who are you' or 'what your name?' or 'what your name' or 'what you name?' or 'what you name'
+x = 'who are u?' or 'who are u' or 'who are you?' or 'who are you' or 'what your name?' or 'what your name' or 'what you name?' or 'what you name' or 'exit()'
