@@ -3,6 +3,7 @@ from cgitb import text
 from signal import pause
 import time
 import os
+from x_def import x
 
 print(
     '''
@@ -64,6 +65,7 @@ def animate_text(text):
 animate_text(f'{D1} that a nice name, good to see u :)')
 
 print(f'{D1} that a good name, good to see u :)')
+
 
 while 1 : 
   D2 = input('Make question to tobi:')
@@ -209,6 +211,9 @@ while 1 :
         if number_of_characters == 28:
           print('im a tobi :) nice to meet u!')
     animate_text('im a tobi :) nice to meet u!')
+
+  if D2.upper().lower() != x: 
+    break
 
   if D2.upper().lower() == 'exit()' :
     break
