@@ -60,7 +60,7 @@ def animate_text(text):
     if number_of_characters == DH + 35 :
         if running == True:
            running = False
-        
+
 animate_text(f'{D1} that a nice name, good to see u :)')
 
 print(f'{D1} that a good name, good to see u :)')
@@ -82,6 +82,8 @@ if D2.upper().lower() == 'who are u?' :
     if number_of_characters == 28 :
         if running == True:
            running = False
+    if number_of_characters == 28 :
+      print('im a tobi :) nice to meet u!')
  animate_text('im a tobi :) nice to meet u!')
 
 
@@ -100,6 +102,8 @@ if D2.upper().lower() == 'who are you?' :
     if number_of_characters == 28 :
         if running == True:
            running = False
+    if number_of_characters == 28 :
+      print('im a tobi :) nice to meet u!')
  animate_text('im a tobi :) nice to meet u!')
 
 
@@ -118,6 +122,8 @@ if D2.upper().lower() == 'who are you' :
     if number_of_characters == 28 :
         if running == True:
            running = False
+    if number_of_characters == 28 :
+      print('im a tobi :) nice to meet u!')
  animate_text('im a tobi :) nice to meet u!')
 
 
@@ -136,11 +142,9 @@ if D2.upper().lower() == 'who are u' :
     if number_of_characters == 28 :
         if running == True:
            running = False
+    if number_of_characters == 28 :
+      print('im a tobi :) nice to meet u!')
  animate_text('im a tobi :) nice to meet u!')
-
-print('im a tobi :) nice to meet u!')
-
-
 
 
 
