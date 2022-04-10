@@ -137,6 +137,78 @@ while 1 :
         if number_of_characters == 28:
           print('im a tobi :) nice to meet u!')
     animate_text('im a tobi :) nice to meet u!')
-    
+ 
+  if D2.upper().lower() == 'what your name?' :
+    def animate_text(text) : 
+      number_of_characters=1
+      runing = True
+      while runing == True:
+        print('\n')
+        print(text[0:number_of_characters])
+        number_of_characters += 1 
+        if number_of_characters > len(text):
+          number_of_characters = 0
+        time.sleep(0.1)
+        os.system('clear')
+        if number_of_characters == 28: 
+          runing = False 
+        if number_of_characters == 28:
+          print('im a tobi :) nice to meet u!')
+    animate_text('im a tobi :) nice to meet u!')
+  
+  if D2.upper().lower() == 'what your name' :
+    def animate_text(text) : 
+      number_of_characters=1
+      runing = True
+      while runing == True:
+        print('\n')
+        print(text[0:number_of_characters])
+        number_of_characters += 1 
+        if number_of_characters > len(text):
+          number_of_characters = 0
+        time.sleep(0.1)
+        os.system('clear')
+        if number_of_characters == 28: 
+          runing = False 
+        if number_of_characters == 28:
+          print('im a tobi :) nice to meet u!')
+    animate_text('im a tobi :) nice to meet u!')
+
+  if D2.upper().lower() == 'what you name' :
+    def animate_text(text) : 
+      number_of_characters=1
+      runing = True
+      while runing == True:
+        print('\n')
+        print(text[0:number_of_characters])
+        number_of_characters += 1 
+        if number_of_characters > len(text):
+          number_of_characters = 0
+        time.sleep(0.1)
+        os.system('clear')
+        if number_of_characters == 28: 
+          runing = False 
+        if number_of_characters == 28:
+          print('im a tobi :) nice to meet u!')
+    animate_text('im a tobi :) nice to meet u!')
+
+  if D2.upper().lower() == 'what you name?' :
+    def animate_text(text) : 
+      number_of_characters=1
+      runing = True
+      while runing == True:
+        print('\n')
+        print(text[0:number_of_characters])
+        number_of_characters += 1 
+        if number_of_characters > len(text):
+          number_of_characters = 0
+        time.sleep(0.1)
+        os.system('clear')
+        if number_of_characters == 28: 
+          runing = False 
+        if number_of_characters == 28:
+          print('im a tobi :) nice to meet u!')
+    animate_text('im a tobi :) nice to meet u!')
+
   if D2.upper().lower() == 'exit()' :
     break
