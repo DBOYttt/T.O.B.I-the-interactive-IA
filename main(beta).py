@@ -1,7 +1,6 @@
 from asyncio import sleep
 from cgitb import text
 import imp
-from operator import index
 from signal import pause
 import time
 import os
@@ -234,5 +233,7 @@ while 1 :
 
   f = open('brain.txt', 'r')
   d = f.read().find(D2)
-  if D2.upper().lower() != index(d) :
+  s = f.readline(d)
+  
+  if D2.upper().lower() != s :
     print('sorry i cant understund :(')
