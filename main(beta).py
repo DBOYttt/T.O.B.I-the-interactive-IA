@@ -1,6 +1,7 @@
 from asyncio import sleep
 from cgitb import text
 import imp
+from operator import index
 from signal import pause
 import time
 import os
@@ -75,6 +76,9 @@ while 1 :
     def animate_text(text) : 
       number_of_characters=1
       runing = True
+      f = open('brain.txt', 'a')
+      f.write(D2)
+      f.close()
       while runing == True:
         print('\n')
         print(text[0:number_of_characters])
@@ -93,6 +97,9 @@ while 1 :
     def animate_text(text) : 
       number_of_characters=1
       runing = True
+      f = open('brain.txt', 'a')
+      f.write(D2)
+      f.close()
       while runing == True:
         print('\n')
         print(text[0:number_of_characters])
@@ -128,6 +135,9 @@ while 1 :
     def animate_text(text) : 
       number_of_characters=1
       runing = True
+      f = open('brain.txt', 'a')
+      f.write(D2)
+      f.close()
       while runing == True:
         print('\n')
         print(text[0:number_of_characters])
@@ -164,6 +174,9 @@ while 1 :
     def animate_text(text) : 
       number_of_characters=1
       runing = True
+      f = open('brain.txt', 'a')
+      f.write(D2)
+      f.close()
       while runing == True:
         print('\n')
         print(text[0:number_of_characters])
@@ -214,16 +227,12 @@ while 1 :
           print('im a tobi :) nice to meet u!')
     animate_text('im a tobi :) nice to meet u!')
 
-  if D2.upper().lower() != x: 
-     print('i dont understand can u explain?')
-     GW = input('what question i dont understund?:')
-     GW2 = input('can u explain this?:')
-     f = open('brain.txt', 'a')
-     f.write(f'{GW} - {GW2}  ')
-     f.close()
-     f = open('brain.txt', 'r')
-  if D2.upper().lower() == f :
-    print(f.read().find(D2))
     
   if D2.upper().lower() == 'exit()' :
     break
+  
+
+  f = open('brain.txt', 'r')
+  d = f.read().find(D2)
+  if D2.upper().lower() != index(d) :
+    print('sorry i cant understund :(')
