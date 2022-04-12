@@ -5,6 +5,8 @@ from signal import pause
 import time
 import os
 from x_def import x
+from x_def import z
+
 
 
 print(
@@ -75,9 +77,6 @@ while 1 :
     def animate_text(text) : 
       number_of_characters=1
       runing = True
-      f = open('brain.txt', 'a')
-      f.write(D2)
-      f.close()
       while runing == True:
         print('\n')
         print(text[0:number_of_characters])
@@ -96,9 +95,6 @@ while 1 :
     def animate_text(text) : 
       number_of_characters=1
       runing = True
-      f = open('brain.txt', 'a')
-      f.write(D2)
-      f.close()
       while runing == True:
         print('\n')
         print(text[0:number_of_characters])
@@ -134,9 +130,6 @@ while 1 :
     def animate_text(text) : 
       number_of_characters=1
       runing = True
-      f = open('brain.txt', 'a')
-      f.write(D2)
-      f.close()
       while runing == True:
         print('\n')
         print(text[0:number_of_characters])
@@ -173,9 +166,6 @@ while 1 :
     def animate_text(text) : 
       number_of_characters=1
       runing = True
-      f = open('brain.txt', 'a')
-      f.write(D2)
-      f.close()
       while runing == True:
         print('\n')
         print(text[0:number_of_characters])
@@ -230,10 +220,5 @@ while 1 :
   if D2.upper().lower() == 'exit()' :
     break
   
-
-  f = open('brain.txt', 'r')
-  d = f.read().find(D2)
-  s = f.readline(d)
-  
-  if D2.upper().lower() != s :
-    print('sorry i cant understund :(')
+  if D2.upper().lower() != x:
+    print(z.get(D2))
