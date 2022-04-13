@@ -1,0 +1,59 @@
+{
+  "data" : [
+    {
+      "id" : "template-Go to ",
+      "type" : "template",
+      "template" : "Go to "
+    },
+    {
+      "id" : "template-Hello! Happy to see you here!!",
+      "type" : "template",
+      "template" : "Hello! Happy to see you here!!"
+    },
+    {
+      "id" : "template-I am Vaibhav, an AI enthusiast!",
+      "type" : "template",
+      "template" : "I am Vaibhav, an AI enthusiast!"
+    },
+    {
+      "id" : "template-I am Vaibhav, an AI enthusiast! You'll love to check out my various profiles on different networks!! :)",
+      "type" : "template",
+      "template" : "I am Vaibhav, an AI enthusiast! You'll love to check out my various profiles on different networks!! :)"
+    },
+    {
+      "id" : "template-I am good",
+      "type" : "template",
+      "template" : "I am good"
+    },
+    {
+      "id" : "template-I am just as good as the beautiful day outside!!",
+      "type" : "template",
+      "template" : "I am just as good as the beautiful day outside!!"
+    },
+    {
+      "id" : "template-It was my pleasure to talk to you!! Write back to me on my email - vaiagarwal96@gmail.com. Have a nice day! :)",
+      "type" : "template",
+      "template" : "It was my pleasure to talk to you!! Write back to me on my email - vaiagarwal96@gmail.com. Have a nice day! :)"
+    },
+    {
+      "id" : "template-https://github.com/VaibhavAgarwalVA",
+      "type" : "template",
+      "template" : "https://github.com/VaibhavAgarwalVA"
+    },
+    {
+      "id" : "template-https://www.facebook.com/VaibhavAgarwalVA",
+      "type" : "template",
+      "template" : "https://www.facebook.com/VaibhavAgarwalVA"
+    },
+    {
+      "id" : "template-https://www.linkedin.com/in/vaibhavagarwalva",
+      "type" : "template",
+      "template" : "https://www.linkedin.com/in/vaibhavagarwalva"
+    },
+    {
+      "id" : "template-{}",
+      "type" : "template",
+      "template" : "{}"
+    }
+  ]
+}

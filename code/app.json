@@ -1,0 +1,8 @@
+{
+  "version" : 20160513,
+  "zip-command" : "zip MyFirstApp.zip MyFirstApp/app.json MyFirstApp/entities/*.json MyFirstApp/actions.json MyFirstApp/stories.json MyFirstApp/expressions.json",
+  "data" : {
+    "name" : "MyFirstApp",
+    "lang" : "en"
+  }
+}
