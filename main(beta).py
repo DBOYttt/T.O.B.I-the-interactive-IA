@@ -221,4 +221,19 @@ while 1 :
     break
   
   if D2.upper().lower() != x:
-    print(z.get(D2))
+    def animate_text(text) : 
+      number_of_characters=1
+      runing = True
+      while runing == True:
+        print('\n')
+        print(text[0:number_of_characters])
+        number_of_characters += 1 
+        if number_of_characters > len(text):
+          number_of_characters = 0
+        time.sleep(0.1)
+        os.system('clear')
+        if number_of_characters == len(z.get(D2)): 
+          runing = False 
+        if number_of_characters == len(z.get(D2)):
+          print(z.get(D2))
+    animate_text(z.get(D2))
