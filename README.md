@@ -1,9 +1,6 @@
 <h3 align="center">T.O.B.I</h3>
 
-- T.O.B.I's commands: **who are u? or who are you?** 
-                      **what your name?**
-                      **exit()**
-                      **(new) memory for tobi**
+- T.O.B.I's commands: **all words in eng byt only singe words, who are u?, what your name?, exit(), whrite your name**
                       
 
 <h3 align="left">Languages and Tools:</h3>
