@@ -5,6 +5,8 @@ from signal import pause
 import time
 import os
 from x_def import x
+from x_def import z
+
 
 
 print(
@@ -214,16 +216,24 @@ while 1 :
           print('im a tobi :) nice to meet u!')
     animate_text('im a tobi :) nice to meet u!')
 
-  if D2.upper().lower() != x: 
-     print('i dont understand can u explain?')
-     GW = input('what question i dont understund?:')
-     GW2 = input('can u explain this?:')
-     f = open('brain.txt', 'a')
-     f.write(f'{GW} - {GW2}  ')
-     f.close()
-     f = open('brain.txt', 'r')
-  if D2.upper().lower() == f :
-    print(f.read().find(D2))
     
   if D2.upper().lower() == 'exit()' :
     break
+  
+  if D2.upper().lower() != x:
+    def animate_text(text) : 
+      number_of_characters=1
+      runing = True
+      while runing == True:
+        print('\n')
+        print(text[0:number_of_characters])
+        number_of_characters += 1 
+        if number_of_characters > len(text):
+          number_of_characters = 0
+        time.sleep(0.1)
+        os.system('clear')
+        if number_of_characters == len(z.get(D2)): 
+          runing = False 
+        if number_of_characters == len(z.get(D2)):
+          print(z.get(D2))
+    animate_text(z.get(D2))
