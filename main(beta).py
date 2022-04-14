@@ -6,6 +6,7 @@ import time
 import os
 from x_def import x
 from x_def import z
+import json
 
 
 
@@ -216,13 +217,14 @@ while 1 :
           print('im a tobi :) nice to meet u!')
     animate_text('im a tobi :) nice to meet u!')
 
-    
+  y = json.dumps(D2)
+     
   if D2.upper().lower() == 'exit()' :
     break
  
   if D2.upper().lower() != x:
 
-   if D2.upper().lower() in z:
+   if D2.upper().lower() in y:
     def animate_text(text) : 
       number_of_characters=1
       runing = True
@@ -234,13 +236,13 @@ while 1 :
           number_of_characters = 0
         time.sleep(0.1)
         os.system('clear')
-        if number_of_characters == len(z.get(D2)): 
+        if number_of_characters == len(y): 
           runing = False 
-        if number_of_characters == len(z.get(D2)):
-          print(z.get(D2))
-    animate_text(z.get(D2))
+        if number_of_characters == len(y):
+          print(y)
+    animate_text(y)
   
-  if D2.upper().lower() not in z:
+  if D2.upper().lower() not in y:
     def animate_text(text) : 
       number_of_characters=1
       runing = True
