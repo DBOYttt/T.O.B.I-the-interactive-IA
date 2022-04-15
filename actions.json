@@ -34,26 +34,6 @@
       "id" : "template-It was my pleasure to talk to you!! Write back to me on my email - vaiagarwal96@gmail.com. Have a nice day! :)",
       "type" : "template",
       "template" : "It was my pleasure to talk to you!! Write back to me on my email - vaiagarwal96@gmail.com. Have a nice day! :)"
-    },
-    {
-      "id" : "template-https://github.com/VaibhavAgarwalVA",
-      "type" : "template",
-      "template" : "https://github.com/VaibhavAgarwalVA"
-    },
-    {
-      "id" : "template-https://www.facebook.com/VaibhavAgarwalVA",
-      "type" : "template",
-      "template" : "https://www.facebook.com/VaibhavAgarwalVA"
-    },
-    {
-      "id" : "template-https://www.linkedin.com/in/vaibhavagarwalva",
-      "type" : "template",
-      "template" : "https://www.linkedin.com/in/vaibhavagarwalva"
-    },
-    {
-      "id" : "template-{}",
-      "type" : "template",
-      "template" : "{}"
     }
   ]
 }
