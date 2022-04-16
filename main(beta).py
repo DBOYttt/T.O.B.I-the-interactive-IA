@@ -1,6 +1,7 @@
 from asyncio import sleep
 from cgitb import text
 import imp
+import json
 from signal import pause
 import time
 import os
@@ -217,7 +218,7 @@ while 1 :
           print('im a tobi :) nice to meet u!')
     animate_text('im a tobi :) nice to meet u!')
 
-  y = json.dumps(D2)
+  y = json.dump(D2)
      
   if D2.upper().lower() == 'exit()' :
     break
