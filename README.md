@@ -1,7 +1,10 @@
 <h3 align="center">T.O.B.I</h3>
 
-- T.O.B.I's commands: **all words in eng byt only singe words, who are u?, what your name?, exit(), whrite your name**
-                      
+tobi its my first project in python so i hope u enjoi it.
+- Dictionary function 
+- exit() command 
+- GUI(in progres)
+- first IA(in progres)
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
