@@ -3,8 +3,10 @@ from cgitb import text
 import imp
 import time
 import os
+from turtle import clear
 from x_def import x
 from x_def import z
+
 
 
 
