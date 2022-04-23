@@ -1,7 +1,6 @@
 from asyncio import sleep
 from cgitb import text
 import imp
-from signal import pause
 import time
 import os
 from x_def import x
@@ -68,7 +67,7 @@ def animate_text(text):
 
 animate_text(f'{D1} that a nice name, good to see u :)')
 
-print(f'{D1} that a good name, good to see u :)')
+print(f'{D1.capitalize()} that a good name, good to see u :)')
 
 
 while 1 : 
